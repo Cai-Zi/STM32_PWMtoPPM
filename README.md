@@ -1,2 +1,15 @@
 # STM32_PWMtoPPM
-使用STM32F103C8T6最小系统板，将8路PWM转换为PPM信号输出，弥补无PPM输出的接收机
+使用STM32F103C8T6最小系统板（蓝色开发板），捕获8路PWM转换为PPM输出，弥补无PPM输出的接收机
+# 引脚分配
+接收机的PWM输出通道 --> 最小系统板的引脚
+  CH1 --> PA0
+	CH2 --> PA1
+	CH3 --> PA2
+	CH4 --> PA3
+	CH5 --> PB6
+	CH6 --> PB7
+	CH7 --> PB8
+	CH8 --> PB9
+最小系统板PPM输出在PB1脚，LED灯在PC13脚
+# SBUS输出
+暂未开发，先挖个坑，有空再填
