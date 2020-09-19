@@ -1,0 +1,2 @@
+# STM32_PWMtoPPM
+使用STM32F103C8T6最小系统板，将8路PWM转换为PPM信号输出，弥补无PPM输出的接收机
